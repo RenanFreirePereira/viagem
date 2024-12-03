@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romy.com - Ultimate Rome Travel Package</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+        * {
+            font-family: "Libre Baskerville", serif;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .inicio {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-image: url("dist/image.png");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .main {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .menu {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgb(77, 0, 88);
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 100;
+            padding: 0 1rem;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .menu a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            margin-bottom: 2rem;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .package-info {
+            text-align: left;
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+        .package-info ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .package-info ul li {
+            padding: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        .price-box {
+            background-color: #512c82;
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            font-size: 1.5rem;
+        }
+        .price-box .price {
+            font-size: 2rem;
+        }
+        .call-to-action {
+            background-color: rgb(77, 0, 88);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            font-size: 1.2rem;
+        }
+        .call-to-action a {
+            color: white;
+            background-color: #28a745;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#destinations">DESTINATIONS</a>
+        <a href="#lodging">Exploring local markets </a>
+        <a href="#transport">TRANSPORTATION</a>
+        <a href="#security">DOCUMENTS</a>
+        <a href="#contact">CONTACT US</a>
+    </nav>
+
+    <div class="inicio">
+        <div class="main">
+            <h1>Rome Exclusive Travel Package</h1>
+            <p>Your ultimate journey to the Eternal City, with all-inclusive services to make your trip unforgettable.</p>
+        </div>
+    </div>
+
+    <!-- Travel Package Section -->
+    <section class="section" id="package">
+        <h2>The Ultimate Rome Travel Package</h2>
+        <div class="package-info" style="text-align: justify;">
+            <h2>option for 2  people: Sonder Piazza di Spagna 50 Via di Capo le Case, Spagna, Roma </h2>
+         
+            <ol>
+                <li>Private bathroom</li>
+                <li>Air conditioning</li>
+                <li>Free Wi-Fi access</li>
+                <li>Flat-screen TV</li>
+                <li>Non-smoking rooms</li>
+                <li>Bathtub or shower</li>
+                <li>Elevator</li>
+                <li>Coffee machine</li>
+                <li>Cable channels</li>
+            </ol>
+            <div class="section"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+              </svg> An additional R$909.00 with breakfast included
+            </div>
+            <div class="price-box">
+                <p class="price">Only R$ 3.399 per person</p>
+                <p>Includes flights, accommodation, guided tours, and meals.</p>
+                <div style="display: flex; gap:1vw">
+                <img src="img1.jpeg" alt="" style="width:50%">
+                <img src="img2.jpeg" alt="" style="width:50%">
+                
+            </div>
+            </div>
+        </div>
+
+        <h2>The Ultimate Rome Travel Package</h2>
+        <div class="package-info" style="text-align: justify;">
+            <h2>option for 3  people: IAIO Testaccio Retrò </h2>
+            
+            <ol>
+                <li>Parking</li>
+                <li>Free Wi-Fi access</li>
+                <li>Air conditioning</li>
+                <li>Private bathroom</li>
+                <li>View</li>
+                <li>Flat-screen TV</li>
+                <li>Airport transfer</li>
+                <li>Non-smoking rooms</li>
+                <li>Shower</li>
+                <li>Minibar</li>
+            </ol>
+            
+            
+            <div class="price-box">
+                <p class="price">Only R$ 4.082 per person</p>
+                <p>Includes flights, accommodation, guided tours, and meals.</p>
+                <div style="display: flex; gap:1vw">
+                <img src="img5.jpg" alt="" style="width:50%; max-height:40vw">
+                <img src="img6.jpg" alt="" style="width:50%;max-height:40vw">
+                
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="section" id="destinations"  style="display: flex; justify-content: center; flex-direction: column; align-items: center; flex-wrap: wrap; text-align: left; gap: 20px">
+        <h2>Explore Iconic Destinations</h2>
+            <h1>Rome - A Timeless City</h1>
+            <p>Rome is the capital of Italy and its most populous and extensive municipality, ranking among the major European capitals by territory size. It stands in the central-western portion of the Italian Peninsula, on the Tiber River within the Lazio region. Its history spans 28 centuries.</p>
+        
+            <p>Rome was called the “Eternal City” by the ancient Romans because they believed that no matter what happened in the rest of the world, the city of Rome would always remain standing. Exploring the city centre by foot surrounded by glorious monuments and colossal remains takes you back in time to the glory that was Rome. Ancient Rome contributed greatly to the development of law, war, art, literature, architecture, technology, and language in the Western world, and its history continues to have a major influence on the world today.</p>
+        
+            <h2>Climate</h2>
+            <p>Rome has a Mediterranean climate with cool winters and warm and hot summers. If we compare the climate of Rome to that of London, Dublin, Amsterdam or other northern European cities, temperatures are much more pleasant throughout the year with average high temperatures of 12°C (53°F) and average lows of 4°C (39°F) during the coldest months (January and February) and average high of 31°C (88°F) and average lows of 20°C (68°F) during the hottest summer months (July and August).</p>
+        
+            <p>The wettest month in Rome is December, and on average autumn and winter precipitation levels are higher than in London.</p>
+        
+            <h2>Rome in Summer</h2>
+            <p>July is the hottest month of the year in Rome, although August is nearly as hot, with average temperatures of 25°C (77°F). Due to the high humidity, visiting the city during these months can be a little stifling. In August, many shops close and many locals leave on vacation.</p>
+        
+            <h2>Rome in Winter</h2>
+            <p>Rome’s coldest months are January and February. During these two months, it rains every couple of days but some days can be quite pleasant with high temperatures of 12°C (53°F). At night, the temperature can reach below freezing. If you don’t mind a little bit of cold, Rome is beautiful during winter.</p>
+        
+            <h2>The Best Time of Year to Visit Rome</h2>
+            <p>The city of Rome can be discovered the whole year round. However, if you can, we recommend going in spring or autumn, when there are normally fewer hordes of tourists. However, if you don’t like large crowds, avoid visiting the city during Easter as this is when Rome has the largest amount of travellers. In autumn, it is more likely to rain than in spring.</p>        
+
+        <ul>
+            <li>The Colosseum</li>
+            <li>The Vatican Museums</li>
+            <li>St. Peter's Basilica</li>
+            <li>The Roman Forum</li>
+        </ul>
+        <div style="display: flex; gap:1vw">
+        <img src="img3.jpeg" alt="Rome Destinations" style="width:50%">
+        <img src="img4.jpeg" alt="Rome Destinations" style="width:50%">
+        </div>
+    </section>
+
+    <!-- Transportation Section -->
+    <section class="section" id="transport" style="display: flex; justify-content: center; flex-direction: column; align-items: center; flex-wrap: wrap; text-align: left; gap: 20px">
+        <div>
+        <h2>Comfortable Transportation: <strong>Latam</strong></h2>
+        <ol> <li>ranked as one of the best airlines in Brazil</li>
+            <li>Departure from São José do Rio Preto;</li>   
+            <li>Arrival in Fiumicino;</li> 
+            <li>Distance traveled: <strong>9,422 km;</strong></li> 
+            <li>Flight duration: approximately 18 hours</li>  
+            <li>Stops: 1 stop in Guaru</li></ol>
+            </p>
+            <img src="https://th.bing.com/th/id/R.90f835c41d555cd319e071964a3ad827?rik=fclKxOS5tlsuFw&pid=ImgRaw&r=0" style="width:50rem" alt="">
+        </div>
+        </section>
+
+    <!-- Security and Care Section -->
+    <section class="section" id="security"  style="display: flex; justify-content: center; flex-direction: column; align-items: center; flex-wrap: wrap; text-align: left; gap: 20px">
+        <h1>General Essentials</h1>
+<h2>Travel Documents:
+</h2>
+<ul>
+<li>Passport (with at least six months' validity).</li>
+<li>Visa (if required).</li>
+<li>Travel insurance details.</li>
+<li>Copies of important documents.</li>
+
+</ul>
+<h2>Clothing:</h2>
+
+
+
+<ul>
+    <li>Comfortable walking shoes (Rome’s cobblestone streets can be challenging).</li>
+    <li>Casual outfits for daytime sightseeing.</li>
+    <li>A modest outfit for visiting religious sites (covered shoulders and knees).</li>
+    <li>Lightweight scarf (useful for both style and covering up in churches).</li>
+</ul>
+
+<h2>Personal Items:</h2>
+
+<ol>
+    <li>Toiletries (toothbrush, toothpaste, shampoo, etc.).
+    </li>
+    <li>Prescription medications.
+</li>
+<li>Sunglasses and sunscreen.
+</li>
+</ol>
+<h2>Electronics:</h2>
+<ol>
+    <li>Phone, charger, and power bank.</li>
+    <li>European plug adapter (Italy uses Type C, F, and L plugs).
+    </li>
+    <li>Camera for capturing memories.
+    </li>
+</ol>
+<h2>Specific Items for Summer
+</h2>
+<ol>    
+    <li>
+    Breathable fabrics like cotton or linen.
+   
+    </li><li>    Shorts, skirts, and light dresses.
+    </li>
+    <li>    Sandals or lightweight walking shoes.
+    </li>
+    <li>Sun Protection:
+        
+Wide-brimmed hat.
+High SPF sunscreen.
+After-sun lotion or aloe vera gel.
+Cooling Accessories:
+    </li>
+    <br>
+</ol>
+<h2>Specific Items for Winter
+</h2>
+<ol>
+
+<li>Warm Clothing:
+</li>
+   <li>Coat or insulated jacket.</li> 
+   <li>    Layers (sweaters, thermals, and long-sleeve shirts).
+</li>
+<li>    Gloves, scarf, and a beanie.
+</li>
+    </ol>
+</ol>
+
+<h2>Rain Protection:</h2>
+<ol>
+    <li>Waterproof boots or shoes.
+    </li>
+</ol>
+
+
+
+
+
+
+<!-- Rainy Day Activities Section -->
+<section class="section" id="lodging"  style="display: flex; justify-content: center; flex-direction: column; align-items: center; flex-wrap: wrap; text-align: left; gap: 20px">
+    <h2>Rainy Day Activities</h2>
+
+    <h3>Day 1: Skip-the-Line Entry to the Pantheon</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 1 hour</li>
+        <li>Entry via special access</li>
+        <li>Language: English, Italian</li>
+        <li>Price: €5.00 per person</li>
+    </ul>
+
+    <h3>Day 2: Virtual Reality Tours of the Colosseum and Other Attractions</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 2.5 hours</li>
+        <li>Language: English</li>
+        <li>Maximum group size: 6 participants</li>
+        <li>Price: €69.00 per person</li>
+    </ul>
+
+    <h3>Day 3: Neon Glow Painting Class with Unlimited Wine</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 2.5 hours</li>
+        <li>Language: English</li>
+        <li>Accessibility: Available</li>
+        <li>Price: €39.00 per person</li>
+    </ul>
+
+    <h3>Day 4: Skip-the-Line Guided Tour to the Vatican Museums & Sistine Chapel</h3>
+    <ul>
+        <li>Non-refundable policy: This activity is non-refundable</li>
+        <li>Duration: 2 hours</li>
+        <li>Language: English</li>
+        <li>Price: €62.40 per person</li>
+    </ul>
+
+    <h3>Day 5: Visit the Underground Temples of St. Clement Basilica</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 1 hour</li>
+        <li>Language: Spanish, Portuguese, German, Italian, French, English</li>
+        <li>Private group option available</li>
+        <li>Price: €59.00 per person</li>
+    </ul>
+
+    <h3>Day 6: Pasta and Tiramisu Cooking Class at Ex Academy of Chefs</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 2 hours</li>
+        <li>Language: English</li>
+        <li>Accessibility: Available</li>
+        <li>Private tour option available</li>
+        <li>Price: €39.00 per person</li>
+    </ul>
+</section>
+
+<!-- Sunny Day Activities Section -->
+<section style="display: flex; justify-content: center; flex-direction: column; align-items: center; flex-wrap: wrap; text-align: left; gap: 20px" class="section" id="sunny-day">
+    <h2>Sunny Day Activities</h2>
+
+    <h3>Day 1: Visit the Vatican Museums & Sistine Chapel with Breakfast</h3>
+    <ul>
+        <li>Non-refundable policy: This activity is non-refundable</li>
+        <li>Duration: 3 hours</li>
+        <li>Language: English</li>
+        <li>Price: €80.00 per person</li>
+    </ul>
+
+    <h3>Day 2: Gastronomic Experience at a Roman Restaurant with Food and Wine</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 75 minutes</li>
+        <li>Language: English, French, Spanish, Italian</li>
+        <li>Accessibility: Available</li>
+        <li>Price: €36.00 per person</li>
+    </ul>
+
+    <h3>Day 3: Guided Tour to Castel Sant'Angelo with Special Access</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 2 hours</li>
+        <li>Language: English</li>
+        <li>Audio guide included</li>
+        <li>Price: €41.40 per person</li>
+    </ul>
+
+    <h3>Day 4: Vespa Tour of the City with Tastings</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 1.5-2 hours</li>
+        <li>Language: English</li>
+        <li>Maximum group size: 10 participants</li>
+        <li>Price: €54.60 per person</li>
+    </ul>
+
+    <h3>Day 5: Kayaking and Swimming at Lake Castel Gandolfo with Pizza</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 3 hours</li>
+        <li>Language: Spanish, English, Italian, Arabic</li>
+        <li>Pick-up service included from Anagnina metro station or Castel Gandolfo lake</li>
+        <li>Price: €32.00 per person</li>
+    </ul>
+
+    <h3>Day 6: Night Walking Tour Under the Stars</h3>
+    <ul>
+        <li>Free cancellation: Cancel up to 24 hours in advance for a full refund</li>
+        <li>Book now, pay later: Keep your plan flexible - reserve your spot today without paying</li>
+        <li>Duration: 2 hours</li>
+        <li>Language: English</li>
+        <li>Price: €25.42 per person</li>
+    </ul>
+</section>
+
+<!-- Call to Action -->
+<section class="section call-to-action" id="contact">
+    <h2>Ready to Book?</h2>
+    <p>Don't miss out on this exclusive opportunity! Contact us now to secure your spot on this unforgettable journey to Rome.</p>
+    <a href="mailto:info@romy.com">Book Now</a>
+</section>
+
+<!-- Footer -->
+<footer class="section">
+    <p>&copy; 2024 Romy.com | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+    </section>
+
+    <!-- Call to Action -->
+   
+
+    
+</body>
+</html>
